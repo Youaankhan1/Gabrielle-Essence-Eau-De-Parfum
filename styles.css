@@ -1,0 +1,251 @@
+body {
+    background-color:  hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    position: relative;
+    text-align: left;
+}
+
+p {
+    font-size: 14px;
+    padding: 0 12px 15px 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+/* MASTER DIV */
+.container-fluid-m {
+    height: 100vh;
+    display: inline-block;
+}
+
+/* Row */
+.row-1 {
+    height: 100vh;
+    padding: 12% 28% 15%;
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+
+/* TEXT */
+
+.discription {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    padding: 37px 25px 22px 30px;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.perfume {
+    font-size: 13px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+
+.discount {
+    text-decoration: line-through;
+    font-size: 15px;
+    padding: 8px 0 0 10px;
+}
+
+.row-2 {
+    padding-bottom: 15px;
+}
+
+/* BTN AND SVG */
+
+.svg {
+    position: absolute;
+    left: 56%;
+    top: 72%;
+}
+
+/* BOTTOM  */
+.attribution {
+    background-color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    color: hsl(212, 21%, 14%);
+    position: absolute;
+    bottom: 0;
+}
+
+/***  BUTTON ***/
+
+.BUTTON_APP {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    height: 50px;
+    line-height: 8px;
+    color: #FFFFFF;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 20px 10px 5px 10px;
+    background-color: #3C8067;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 0 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #3C8067 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+
+ .BUTTON_APP:hover {
+    border: solid hsl(30, 38%, 92%) 1px;
+    color: #FFFFFF;
+    background: #193f30;
+    background-image: -webkit-linear-gradient(top, #193f30, #193f30);
+    background-image: -moz-linear-gradient(top, #193f30, #193f30);
+    background-image: -ms-linear-gradient(top, #193f30, #193f30);
+    background-image: -o-linear-gradient(top, #193f30, #193f30);
+    background-image: -webkit-gradient(to bottom, #193f30, #193f30);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    text-decoration: none;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+
+/* FOR MOBILE */
+
+
+@media screen and (max-width: 480px) {
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 2;
+        padding: 5px 80px 5px 0;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1;
+        padding: 0;
+    }
+
+    /* MASTER DIV */
+    .container-fluid-m {
+        height: 100vh;
+        display: inline-block;
+    }
+
+    /* Row */
+    .row-1 {
+        width: 100%;
+        padding: 10px 5px 0 5px;
+    }
+
+    /* IMAGE */
+    img {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+}
+
+    /* TEXT */
+
+    .discription {
+        position: relative;
+        bottom: 20px;
+        font-size: 0.8rem;
+        padding: 20px 18px 0 28px ;
+        border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -o-border-radius: 0 0 10px 10px;
+}
+
+    .text {
+        padding-right: 0;
+    }
+
+    .price {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .perfume {
+        font-size: 13px;
+        letter-spacing: 4px;
+        padding: 0;
+    }
+
+    .discount {
+        position: absolute;
+        font-size: 15px;
+        padding: 8px 0 0 0;
+        right: 185px;
+    }
+
+    .row-2 {
+        padding-bottom: 15px;
+    }
+
+    /* BTN AND SVG */
+
+    .svg {
+        position: absolute;
+        left: 33%;
+        top: 87%;
+    }
+
+    /***  BUTTON ***/
+
+    .BUTTON_APP {
+        margin-bottom: 10px;
+        height: 50px;
+        line-height: 8px;
+        width: 350px;
+        font-size: 14px;
+        padding: 20px 10px 5px 10px;
+
+    }
+
+    .attribution {
+        display: none;
+    }
+}
